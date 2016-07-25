@@ -47,7 +47,7 @@
       <documentation>WSDL File for HelloService</documentation>
       <port binding="tns:Hello_Binding" name="Hello_Port">
          <soap:address
-            location="http://www.examples.com/SayHello/" />
+            location="http://localhost:7000/" />
       </port>
    </service>
 </definitions>
