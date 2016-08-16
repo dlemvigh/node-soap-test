@@ -56,7 +56,7 @@ var wsdl_options = {
     pfx: pfx,
     passphrase: 'Test123',
     ca: cert,
-    
+
 };
 
 var credentials = {
@@ -88,21 +88,3 @@ soap.createClient(url, {
         });
     }
 });
-
-/*
-soap.createClient(url, {
-        wsdl_headers: {},
-        wsdl_options: {
-            pfx: fs.readFileSync('private/TestClientCert.pfx'),
-            passphrase: 'Alma1234',
-            ca: fs.readFileSync('private/Gs1TradeSyncUATClient.cer'),
-            rejectUnauthorized: false
-        },
-        httpClient: myX509Client
-    },
-    function(err, client) {
-        client.AddSubscription(args, function(err, result) {
-            console.log(result);
-        });
-    });
-*/
