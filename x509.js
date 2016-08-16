@@ -3,8 +3,9 @@ var fs = require('fs');
 var soap = require('soap');
 var X509HttpClient = require('soap-x509-http');
 
-//var url = 'https://gs1tradesync-uat.pro-sharp.hu:5556/DataRecipientOperationsService.svc?wsdl';
-var url = 'http://localhost:8000/dr?wsdl';
+var url = 'https://gs1tradesync-uat.pro-sharp.hu:5556/DataRecipientOperationsService.svc?wsdl';
+//var url = 'http://localhost:8000/dr?wsdl';
+//var url = 'http://localhost:4000/soapDRC?wsdl';
 var args = {
     "catalogueItemSubscriptionType": {
         "creationDateTime": "2016-08-15T18:32:18.082Z",
@@ -46,16 +47,20 @@ var args = {
 
 var cert = fs.readFileSync('private/cert/Gs1TradeSyncUATClient.pem', 'utf8');
 var key = fs.readFileSync('private/cert/TestClientCert.pem', 'utf8');
-var pfx = fs.readFileSync('private/cert/TestClientCert.pfx', 'utf8');
+var pfx = fs.readFileSync('private/cert/5790002328275.pfx', 'utf8');
+var pem = fs.readFileSync('private/cert/5790002328275.pem', 'utf8');
+var pemPK = fs.readFileSync('private/cert/5790002328275-PK.pem', 'utf8');
+var pemCERT = fs.readFileSync('private/cert/5790002328275-CERT.pem', 'utf8');
 
 var wsdl_options = {
     pfx: pfx,
-    passphrase: 'Alma1234',
+    passphrase: 'Test123',
     ca: cert,
-    rejectUnauthorized: false
+    
 };
+
 var credentials = {
-    key: key
+    key: pem
 };
 
 var options = {

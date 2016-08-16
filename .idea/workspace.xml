@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b29f31d0-711c-43d9-b31f-5e4537d76ff1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/private/cert/5790002328275.pfx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/private/cert/Gs1TradeSyncUATClient.cer" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/private/cert/TestClientCert.pfx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/private/cert/5790002328275.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/private/cert/Gs1TradeSyncUATClient.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/private/cert/TestClientCert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/private/cert/TestClientCertEncrypted.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/private/wsdl/DataRecipientOperationsCallbackService.Single.wsdl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/private/wsdl/DataRecipientOperationsService.Single.wsdl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/private/wsdl/DataSourceOperationsCallbackService.Single.wsdl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/private/wsdl/DataSourceOperationsService.Single.wsdl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stub.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x509.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="$PROJECT_DIR$/npm-debug.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/soap.js" afterPath="$PROJECT_DIR$/soap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/x509.js" afterPath="$PROJECT_DIR$/x509.js" />
     </list>
     <ignored path="node-soap-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,12 +30,11 @@
       <file leaf-file-name="soap.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/soap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="891">
-              <caret line="102" column="2" selection-start-line="102" selection-start-column="2" selection-end-line="102" selection-end-column="2" />
+            <state relative-caret-position="792">
+              <caret line="64" column="4" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
               <folding>
                 <element signature="e#567#832#0" expanded="false" />
                 <element signature="e#855#1827#0" expanded="false" />
-                <element signature="e#1915#2514#0" expanded="false" />
                 <element signature="e#2533#2805#0" expanded="false" />
                 <element signature="e#2824#3017#0" expanded="false" />
               </folding>
@@ -55,14 +42,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stub.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stub.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/soap/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="298" column="54" selection-start-line="298" selection-start-column="54" selection-end-line="298" selection-end-column="54" />
-              <folding>
-                <element signature="e#113#18277#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,20 +55,20 @@
       <file leaf-file-name="x509.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/x509.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+            <state relative-caret-position="148">
+              <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
               <folding>
-                <element signature="e#254#1360#0" expanded="false" />
+                <element signature="e#304#1410#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="5790002328275.pem" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/private/cert/5790002328275.pem">
+      <file leaf-file-name="https.js" pinned="false" current-in-tab="true">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/6.2.2/core-modules/https.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+            <state relative-caret-position="401">
+              <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -92,8 +77,8 @@
       <file leaf-file-name="soap.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/soap/lib/soap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+            <state relative-caret-position="381">
+              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -102,21 +87,48 @@
       <file leaf-file-name="wsdl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/soap/lib/wsdl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="2135" column="44" selection-start-line="2135" selection-start-column="44" selection-end-line="2135" selection-end-column="44" />
+            <state relative-caret-position="418">
+              <caret line="1896" column="15" selection-start-line="1896" selection-start-column="15" selection-end-line="1896" selection-end-column="15" />
+              <folding>
+                <marker date="1471360874057" expanded="true" signature="56754:56795" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="http.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/soap/lib/http.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="747">
+              <caret line="111" column="8" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="X509HttpClient.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/soap-x509-http/X509HttpClient.js">
+      <file leaf-file-name="request.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/request/request.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="154" column="25" selection-start-line="154" selection-start-column="25" selection-end-line="154" selection-end-column="25" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="830">
+              <caret line="1406" column="1" selection-start-line="1406" selection-start-column="1" selection-end-line="1406" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_http_client.js" pinned="false" current-in-tab="false">
+        <entry file="mock://_http_client.js">
+          <provider selected="true" editor-type-id="vmFileEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gs1TradeSyncUATClient.pem" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/private/cert/Gs1TradeSyncUATClient.pem">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -138,14 +150,15 @@
       <list>
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/private/HelloService.wsdl" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/private/x509.js" />
         <option value="$PROJECT_DIR$/private/DataRecipientOperationsService.Single.wsdl" />
         <option value="$PROJECT_DIR$/private/DataSourceOperationsService.Single.wsdl" />
         <option value="internal/process/next_tick.js" />
         <option value="$PROJECT_DIR$/soap.js" />
-        <option value="$PROJECT_DIR$/x509.js" />
         <option value="$PROJECT_DIR$/stub.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/x509.js" />
+        <option value="_http_client.js" />
       </list>
     </option>
   </component>
@@ -158,10 +171,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-13" />
-    <option name="y" value="1" />
-    <option name="width" value="3856" />
-    <option name="height" value="2076" />
+    <option name="x" value="-16" />
+    <option name="y" value="-16" />
+    <option name="width" value="3872" />
+    <option name="height" value="2092" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -236,6 +249,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node-soap-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node-soap-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="private" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cert" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -259,7 +290,7 @@
       <recent name="C:\Users\david\WebstormProjects\node-soap-test\private" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.Stub">
+  <component name="RunManager" selected="Node.js.x509">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -346,18 +377,18 @@
       <workItem from="1467226702501" duration="648000" />
       <workItem from="1468853075544" duration="4685000" />
       <workItem from="1470852260504" duration="1255000" />
-      <workItem from="1471205281153" duration="23055000" />
+      <workItem from="1471205281153" duration="27974000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32168000" />
+    <option name="totallyTimeSpent" value="37087000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="1" width="3856" height="2076" extended-state="6" />
-    <editor active="false" />
+    <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21012188" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20923483" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292342" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -367,7 +398,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2697623" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30842164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30458817" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -401,42 +432,30 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/x509.js</url>
-          <line>65</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/x509.js</url>
-          <line>73</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/x509.js</url>
-          <line>76</line>
+          <line>81</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/x509.js</url>
-          <line>78</line>
+          <line>83</line>
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/x509.js</url>
-          <line>80</line>
+          <line>85</line>
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/node_modules/soap-x509-http/X509HttpClient.js</url>
-          <line>147</line>
+          <url>file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/6.2.2/core-modules/https.js</url>
+          <line>81</line>
           <properties />
-          <option name="timeStamp" value="29" />
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="32" />
+      <option name="time" value="39" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="NodeJSConfigurationType">
@@ -446,6 +465,9 @@
         <watch expression="err" language="JavaScript" />
         <watch expression="url" language="JavaScript" />
         <watch expression="client.AddSubscription" language="JavaScript" />
+        <watch expression="this" language="JavaScript" />
+        <watch expression="signature" language="JavaScript" />
+        <watch expression="x509.options.key" language="JavaScript" />
       </configuration>
     </watches-manager>
   </component>
@@ -465,7 +487,6 @@
           <folding>
             <element signature="e#567#832#0" expanded="false" />
             <element signature="e#855#1827#0" expanded="false" />
-            <element signature="e#1915#2514#0" expanded="false" />
             <element signature="e#2533#2805#0" expanded="false" />
             <element signature="e#2824#3017#0" expanded="false" />
           </folding>
@@ -511,7 +532,6 @@
           <folding>
             <element signature="e#567#832#0" expanded="false" />
             <element signature="e#855#1827#0" expanded="false" />
-            <element signature="e#1915#2514#0" expanded="false" />
             <element signature="e#2533#2805#0" expanded="false" />
             <element signature="e#2824#3017#0" expanded="false" />
           </folding>
@@ -549,7 +569,6 @@
           <folding>
             <element signature="e#567#832#0" expanded="false" />
             <element signature="e#855#1827#0" expanded="false" />
-            <element signature="e#1915#2514#0" expanded="false" />
             <element signature="e#2533#2805#0" expanded="false" />
             <element signature="e#2824#3017#0" expanded="false" />
           </folding>
@@ -579,7 +598,6 @@
           <folding>
             <element signature="e#567#832#0" expanded="false" />
             <element signature="e#855#1827#0" expanded="false" />
-            <element signature="e#1915#2514#0" expanded="false" />
             <element signature="e#2533#2805#0" expanded="false" />
             <element signature="e#2824#3017#0" expanded="false" />
           </folding>
@@ -654,14 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/soap/lib/client.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
@@ -696,54 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/private/cert/Gs1TradeSyncUATClient.pem">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/soap-x509-http/X509HttpClient.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="154" column="25" selection-start-line="154" selection-start-column="25" selection-end-line="154" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/soap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="102" column="2" selection-start-line="102" selection-start-column="2" selection-end-line="102" selection-end-column="2" />
-          <folding>
-            <element signature="e#567#832#0" expanded="false" />
-            <element signature="e#855#1827#0" expanded="false" />
-            <element signature="e#1915#2514#0" expanded="false" />
-            <element signature="e#2533#2805#0" expanded="false" />
-            <element signature="e#2824#3017#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/soap/lib/wsdl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="2135" column="44" selection-start-line="2135" selection-start-column="44" selection-end-line="2135" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/soap/lib/soap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stub.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -754,20 +716,135 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/x509.js">
+    <entry file="file://$PROJECT_DIR$/private/cert/5790002328275.pem">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+        <state relative-caret-position="396">
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/ws.js/lib/ws.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
           <folding>
-            <element signature="e#254#1360#0" expanded="false" />
+            <marker date="1471361917128" expanded="true" signature="871:940" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/private/cert/5790002328275.pem">
+    <entry file="file://$PROJECT_DIR$/node_modules/soap-x509-http/X509HttpClient.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+        <state relative-caret-position="395">
+          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/soap/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/soap/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/ws.js/node_modules/xmldom/sax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="64" column="4" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
+          <folding>
+            <element signature="e#567#832#0" expanded="false" />
+            <element signature="e#855#1827#0" expanded="false" />
+            <element signature="e#2533#2805#0" expanded="false" />
+            <element signature="e#2824#3017#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/cert/Gs1TradeSyncUATClient.pem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/x509.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
+          <folding>
+            <element signature="e#304#1410#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/soap/lib/soap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/soap/lib/wsdl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="1896" column="15" selection-start-line="1896" selection-start-column="15" selection-end-line="1896" selection-end-column="15" />
+          <folding>
+            <marker date="1471360874057" expanded="true" signature="56754:56795" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/soap/lib/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="111" column="8" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/request/request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="830">
+          <caret line="1406" column="1" selection-start-line="1406" selection-start-column="1" selection-end-line="1406" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/6.2.2/core-modules/https.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
           <folding />
         </state>
       </provider>
