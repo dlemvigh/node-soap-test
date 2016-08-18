@@ -1,6 +1,14 @@
 var fs = require('fs');
 var https = require('https');
-var options = {
+var options = null;
+options = {
+    key:    fs.readFileSync('private/ssl/server.key'),
+    cert:   fs.readFileSync('private/ssl/server.crt'),
+    ca:     fs.readFileSync('private/ssl/ca.crt'),
+    requestCert:        true,
+    rejectUnauthorized: false
+};
+options = {
     key: fs.readFileSync('private/scratch/server-key.pem'),
     cert: fs.readFileSync('private/scratch/server-csr.pem'),
     ca: fs.readFileSync('private/scratch/ca-crt.pem'),

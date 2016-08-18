@@ -53,11 +53,11 @@ var pemPK = fs.readFileSync('private/cert/5790002328275-PK.pem', 'utf8');
 var pemCERT = fs.readFileSync('private/cert/5790002328275-CERT.pem', 'utf8');
 
 var wsdl_options = {
-    ca: cert,
+    ca: pemCERT,
 };
 
 var credentials = {
-    key: pem
+    key: pemPK
 };
 
 var options = {
